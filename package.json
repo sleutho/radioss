@@ -36,7 +36,7 @@
 		],
 		"grammars": [
 			{
-				"language": "rad",
+				"language": "radioss",
 				"scopeName": "source.rad",
 				"path": "./syntaxes/rad.tmLanguage"
 			}
