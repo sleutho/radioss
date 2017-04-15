@@ -1,0 +1,45 @@
+{
+	"name": "radioss",
+	"displayName": "RADIOSS",
+	"description": "RADIOSS Input Format",
+	"version": "0.1.0",
+	"publisher": "sleutho",
+	"icon": "images/radioss.png",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sleutho/radioss.git"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "radioss",
+				"aliases": [
+					"RADIOSS",
+					"Altair",
+					"HyperWorks",
+					"Solver",
+					"Starter Input",
+					"Engine Input",
+					"rad"
+				],
+				"extensions": [
+					".rad"
+				],
+				"configuration": "./rad.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "rad",
+				"scopeName": "source.rad",
+				"path": "./syntaxes/rad.tmLanguage"
+			}
+		]
+	}
+}
